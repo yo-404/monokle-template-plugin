@@ -1,0 +1,10 @@
+{
+    "name": "Basic Kubernetes Pod Plugin",
+    "description": "custom plugin on monokle!",
+    "version": "1.0.0",
+    "author": "yo-404",
+    "repository": "https://github.com/yo-404/monokle-template-plugin.git",
+    "monoklePlugin": {
+      "modules": []
+    }
+  }

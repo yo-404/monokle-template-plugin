@@ -1,7 +1,7 @@
 {
-  "name": "Basic Kubernetes Pod Plugin",
+  "name": "basic-kubernetes-pod-plugin",
   "id": "com.github.yo-404.plugin.templates.monokle-Basic-plugin",
-  "author": "Yogesh",
+  "author": "yo-404",
   "version": "1.0.0",
   "description": "Custom template plugin to create pods",
   "repository": "https://github.com/yo-404/monokle-template-plugin.git",

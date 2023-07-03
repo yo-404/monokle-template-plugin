@@ -5,6 +5,11 @@
     "author": "yo-404",
     "repository": "https://github.com/yo-404/monokle-template-plugin.git",
     "monoklePlugin": {
-      "modules": []
+      "modules": [
+        {
+            "type": "template",
+            "path": "."
+        }
+      ]
     }
   }

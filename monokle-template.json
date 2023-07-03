@@ -1,0 +1,24 @@
+{
+  "name": "Basic Kubernetes Pod Plugin",
+  "id": "com.github.yo-404.plugin.templates.monokle-Basic-plugin",
+  "author": "Yogesh",
+  "version": "1.0.0",
+  "description": "Custom template plugin to create pods",
+  "repository": "https://github.com/yo-404/monokle-template-plugin.git",
+  "type": "vanilla",
+  "forms": [
+    {
+      "name": "Pod Settings",
+      "description": "Specify the Image to use",
+      "schema": "form-schema.json",
+      "uiSchema": "form-ui-schema.json"
+    }
+  ],
+  "manifests": [
+    {
+      "filePath": "template.yaml"
+    }
+  ],
+  "resultMessage": "Pod resource created successfully!",
+  "helpUrl": "https://github.com/kubeshop/monokle-default-templates-plugin"
+}

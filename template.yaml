@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+metadata:
+kind: Deployment
+metadata:
+  name: [[forms[0].name]]
+[[forms[0].namespace ? "namespace: "+forms[0]namespace +"\n" : ""]]  
+spec:
+  containers:
+    -image: [[form[0].image]]
+     name: [[form[0].image]]
+     resources: {} 

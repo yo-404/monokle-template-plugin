@@ -1,5 +1,5 @@
 {
-    "name": "Basic Kubernetes Pod Plugin",
+    "name": "basic-kubernetes-pod-plugin",
     "description": "custom plugin on monokle!",
     "version": "1.0.0",
     "author": "yo-404",
